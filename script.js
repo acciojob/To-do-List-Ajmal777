@@ -11,6 +11,7 @@ btn.addEventListener('click', ()=>{
 	li.innerText = data;
 	li.addEventListener('click', getData);
 	list.appendChild(li);
+	input.value = "";
 })
 
 function getData(e){
